@@ -6,7 +6,7 @@ Release:	1
 License:	GPL
 Group:		Networking/Utilities
 Source0:	http://www.stefanopassiglia.com/downloads/%{name}-%{version}.tgz
-# Source0-md5:	3091ba99d414977b990dfe5d45d0f343
+# Source0-md5:	6fd20bc753614b020f58a26569d86086
 URL:		http://www.stefanopassiglia.com
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
