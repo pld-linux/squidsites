@@ -16,7 +16,7 @@ report ofthe most visited sites.
 
 %description -l pl
 squidsites jest narzêdziem analizuj±cym logi Squida oraz tworz±cym
-raport z najczêsciej odwiedzanych stron.
+raport z najczê¶ciej odwiedzanych stron.
 
 %prep
 %setup -q -c
