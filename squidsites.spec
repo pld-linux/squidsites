@@ -7,7 +7,7 @@ License:	GPL
 Group:		Networking/Utilities
 Source0:	http://www.stefanopassiglia.com/downloads/%{name}-%{version}.tgz
 # Source0-md5:	6fd20bc753614b020f58a26569d86086
-URL:		http://www.stefanopassiglia.com
+URL:		http://www.stefanopassiglia.com/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -22,8 +22,7 @@ raport z najczêsciej odwiedzanych stron.
 %setup -q -c
 
 %build
-cd src/
-%{__make}
+%{__make} -C src
 
 %install
 rm -rf $RPM_BUILD_ROOT
