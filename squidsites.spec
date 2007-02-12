@@ -1,5 +1,5 @@
 Summary:	squidsites - Squid reporting tool
-Summary(pl):	squidsites - narzêdzie tworz±ce raporty Squida
+Summary(pl.UTF-8):   squidsites - narzÄ™dzie tworzÄ…ce raporty Squida
 Name:		squidsites
 Version:	1.01
 Release:	1
@@ -14,9 +14,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 squidsites is a tool that parses Squid access log file and generates a
 report ofthe most visited sites.
 
-%description -l pl
-squidsites jest narzêdziem analizuj±cym logi Squida oraz tworz±cym
-raport z najczê¶ciej odwiedzanych stron.
+%description -l pl.UTF-8
+squidsites jest narzÄ™dziem analizujÄ…cym logi Squida oraz tworzÄ…cym
+raport z najczÄ™Å›ciej odwiedzanych stron.
 
 %prep
 %setup -q -c
