@@ -1,5 +1,5 @@
 Summary:	squidsites - Squid reporting tool
-Summary(pl.UTF-8):   squidsites - narzędzie tworzące raporty Squida
+Summary(pl.UTF-8):	squidsites - narzędzie tworzące raporty Squida
 Name:		squidsites
 Version:	1.01
 Release:	1
